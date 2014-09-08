@@ -19,7 +19,7 @@ class RequireNodeCommand(sublime_plugin.TextCommand):
 
         clause_formats = {
             "source.js": {
-                True:  "var {0} = require({1});",
+                True:  "var {0} = require({1})",
                 False: "require({1})"
             },
             "source.coffee": {
